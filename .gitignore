@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Build outputs & compiled files
+dist/
+build/
+.next/
+out/
+.cache/
+*.tsbuildinfo
+next-env.d.ts
+
+# Testing & coverage
+coverage/
+.nyc_output/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Database & local storage
+*.sqlite
+*.sqlite3
+*.db
+local_storage/
+uploads/
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
